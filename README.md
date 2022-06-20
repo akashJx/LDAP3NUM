@@ -2,6 +2,8 @@
 
 **LDAP3NUM is modified version of [ADenum](https://github.com/SecuProject/ADenum)**
 
+---
+
 **Why I made this?**
 - For easing the process of LDAP enumeration in OSCP exam and general pentesting.
 - [ADenum](https://github.com/SecuProject/ADenum) has automatic features of **_AS-REP Roastable, Kerberoastable, Password cracking with john (krb5tgs and krb5asrep)_** which can be classified as restricted tool for OSCP exam. (I checked with offsec for this)
@@ -73,6 +75,7 @@ Impacket:
 ---
 
 **My Discord :** akashx#4733
+
 DM to discuss about this tool / about improvements. 
 
 ---
