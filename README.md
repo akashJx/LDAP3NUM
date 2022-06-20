@@ -11,7 +11,6 @@
 
 ## Requirements
 - Impacket (https://github.com/SecureAuthCorp/impacket)
-- John (https://github.com/openwall/john)
 - Python 3 
 - If you are using **debian** or **ubuntu**:
 	```bash
