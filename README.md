@@ -23,11 +23,22 @@
 	```
 - pip3:
 	```bash
-  virtualenv -p python3 tempenv; source ./tempenv/bin/activate;
+    pip3 install virtualenv;
+    virtualenv -p python3 tempenv; 
+    source ./tempenv/bin/activate;
 	pip3 install -r requirements.txt
 	```
+## Usage
+```
+python3 ADenum.py -h
 
-### Tested on
+python3 ADenum.py -ip $TARGETIP -d $DOMAIN
+
+python3 ADenum.py -ip $TARGETIP -d $DOMAIN -u USERNAME@DOMAIN -p $PASSWORD
+```
+
+
+## Tested on
 - Kali Linux 2021.3 (PWK VM)
 - PG-Practice Hutch box (In Progress)
   
