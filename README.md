@@ -29,11 +29,13 @@
 	pip3 install -r requirements.txt
 	```
 ## Usage
-```
+```bash
 python3 ADenum.py -h
 
+# without credentials
 python3 ADenum.py -ip $TARGETIP -d $DOMAIN
 
+# with credentials
 python3 ADenum.py -ip $TARGETIP -d $DOMAIN -u USERNAME@DOMAIN -p $PASSWORD
 ```
 
