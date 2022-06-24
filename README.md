@@ -29,13 +29,13 @@
 	```
 ## Usage
 ```bash
-python3 ADenum.py -h
+python3 LDAPenum.py -h
 
 # without credentials
-python3 ADenum.py -ip $TARGETIP -d $DOMAIN
+python3 LDAPenum.py -ip $TARGETIP -d $DOMAIN
 
 # with credentials
-python3 ADenum.py -ip $TARGETIP -d $DOMAIN -u USERNAME@DOMAIN -p $PASSWORD
+python3 LDAPenum.py -ip $TARGETIP -d $DOMAIN -u USERNAME@DOMAIN -p $PASSWORD
 ```
 
 
